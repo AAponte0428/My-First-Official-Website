@@ -37,45 +37,53 @@
         <section id="about">
             <h2>About Us</h2>
             <div class="section__description">
-
-            <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
-        </div>
-            <figure class="about__img--wrapper">
+                <div class="section__description--wrapper">
+                    <p class="section__description--para">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+                        </p>
+                            <p class="section__description--para">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+                        </p>
+                    </div>
+                <figure class="about__img--wrapper">
                 <img src="./about.jpg" alt="About Us Image">
             </figure>
             </div>
         </section>
 
        <section id="discord">
-            <h2>Discord Server</h2>
-            <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
-        </div>
-            <figure>
-                <img src="./discord.png" alt="Discord Server Image">
-            </figure>
+            <h2>Discord</h2>
+            <div class="section__description">
+                <figure class="about__img--wrapper">
+                    <img src="./discord.png" alt="Discord Logo Image">
+                </figure>
+            <div class="section__description--wrapper">
+                <p class="section__description--para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+                <p class="section__description--para">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
+            </div>
         </section>
 
         <section id="contact">
             <h2>Contact Us</h2>
             <form action="">
                 <span>Email</span>
-                <input type="text" placeholder="johndoe@example.com">
+                <input type="email" placeholder="johndoe@example.com">
                 <span>Message</span>
-                <textarea type="text" placeholder="Any other information you want to share can go here!"></textarea>
-                <button type="submit">Submit</button>
+                <textarea type="text" placeholder="Cool website, let's get connected!"></textarea>
+                <button type="submit">Contact Us!</button>
             </form>
         </section>
     </main>
+    
     <footer>
-        <img src="./FES.svg" alt="">
-        <div>
-            <a href="#about">About Us</a>
-            <a href="#discord">Discord</a>
-            <a href="#contact">Contact Us</a>
+        <img class="footer__logo" src="./FES.svg" alt="">
+        <div class="footer__links">
+            <a class="footer__link" href="#about">About Us</a>
+            <a class="footer__link" href="#discord">Discord</a>
+            <a class="footer__link" href="#contact">Contact Us</a>
+            <a class="footer__link" href="">Courses</a>
         </div>
         <p>© 2024 Frontend Simplified. All rights reserved.</p>
     </footer>
