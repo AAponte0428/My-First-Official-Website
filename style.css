@@ -182,3 +182,16 @@ footer {
 .footer__link {
     padding: 0 16px;
 }
+
+/* SMALL PHONES,TABLETS, LARGE SMARTPHONES */
+@media (max-width: 728px) {
+    .section__description {
+        flex-direction: column;
+    }
+
+    .about__img--wrapper,
+    .section__description--wrapper {
+        width: 100%;
+        padding: 0;
+    }
+}
