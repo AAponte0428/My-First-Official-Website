@@ -1,0 +1,7 @@
+    {
+    "files.autoSave": "afterDelay",
+    "workbench.editorAssociations": {
+        "*.html": "default",
+        "liveServer.settings.port": 5501
+    },
+}
